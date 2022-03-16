@@ -1,0 +1,48 @@
+body{
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-image: url(tenis.jpg)
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+}
+
+a{
+    background: rgb(199, 176, 48);
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: goldenrod;
+}
+
+div#title{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    background-color: rgb(199, 176, 48);
+    color: white;
+    padding: 5px 30px;
+}
+
+div#descripcion{
+display: flex;
+justify-content: center;
+}
+
+p{
+    background-color: rgb(199, 176, 48);
+    color: rgb(255, 255, 255);
+    font-size: 190%;
+    padding: 10px 30px;
+
+}
