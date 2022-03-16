@@ -1,0 +1,52 @@
+body{
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-image: url(futbol.jpg);
+}
+
+
+nav{
+    display: flex;
+    justify-content: end;
+}
+
+a{
+    background-color: rgb(32, 30, 119);
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: rgb(37, 34, 202);
+}
+
+
+div#h1{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    background-color: rgb(32, 30, 119);
+    color: white;
+    padding: 5px 30px;
+    font-size: 40px;
+}
+
+
+div#p{
+    display: flex;
+    justify-content:left;
+}
+
+p{
+    background-color: rgb(69, 68, 148);
+    color: white;
+    padding: 5px 30px;
+    font-size: 35px;
+    margin-right: 60%;
+}
+
